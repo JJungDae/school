@@ -1,0 +1,72 @@
+
+.header {
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #49ab7a;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    vertical-align:middle;
+    color: white;
+    padding-top: 65px;
+    margin-bottom: 0;
+}
+.navbar {
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(147, 71, 71);
+}
+.nav {padding: 5px;}
+.navbar a {text-decoration: none;}
+.navbar a:link {color: white;}
+.navbar a:visited {color: white;}
+.navbar a:hover {color: black; background-clip: border-box; background-color: white;}
+.about {background-color: rgb(206, 206, 206); padding: 10px;}
+.about img {width: 200px; height: 200px;}
+ul {
+    list-style-image: url("icon.png");
+}
+.left {float: left; font-style: italic;}
+.right {float: right; font-weight: bold;}
+#gachon img {width: 600px; height: 400px;}
+.footer {font-style: italic; text-align: right; background-color: skyblue;}
+
+@media (min-width:700px) {
+
+    .header {
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: #49ab7a;
+        height: 100px;
+        position: relative;
+        text-align: center;
+        vertical-align:middle;
+        color: white;
+        padding-top: 65px;
+        margin-bottom: 0;
+    }
+    .navbar {
+        margin-top: 0;
+        text-align: center;
+        background-color: rgb(147, 71, 71);
+    }
+    .nav {display: inline-block; padding: 5px;}
+    .navbar a {text-decoration: none;}
+    .navbar a:link {color: white;}
+    .navbar a:visited {color: white;}
+    .navbar a:hover {color: black; background-clip: border-box; background-color: white;}
+    .about {float: left; background-color: rgb(206, 206, 206); padding: 10px;}
+    .about img {width: 200px; height: 200px;}
+    ul {
+        list-style-image: url("icon.png");
+    }
+    .main {margin-left: 300px;}
+    .left {float: left; font-style: italic;}
+    .right {float: right; font-weight: bold;}
+    #gachon img {width: 600px; height: 400px; clear:right; display: block;}
+    .footer {font-style: italic; text-align: right; background-color: skyblue;}
+
+    
+}

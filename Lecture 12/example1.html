@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example1</title>
+    </head>
+    <body>
+        <script>
+            /*var now = new Date(), then = new Date();
+            document.write(now);
+            then.setDate(now.getDate()+2);
+            then.setHours(now.getHours()+13);
+            then.setMinutes(now.getMinutes()+24);
+            document.write(then);*/
+            /*var then = new Date();
+            then.setFullYear(2022, 5, 19); // 5 -> June
+
+            var now = new Date();
+            document.write("Now is " + now + "<br>");
+
+            if (now < then) document.write("Now is <em>before</em> " + then);
+            else document.write("Now is <em>after</em> " + then);*/
+            //var myWindow = null;
+
+            //function win_open() {
+            //    if (myWindow == null) {
+            //        myWindow = window.open("https://www.naver.com/");
+            //        // open() returns a new Window object
+            //    }
+            //}
+            document.write("Current url is: " + location.href + "<br>");
+            function jump() {
+                location.assign("https://www.naver.com/");
+                location.href = "https://www.naver.com/"; // does the same
+            }
+            document.write("Browser Name is: " + navigator.appName + "<br>");
+            document.write("Code name is: " + navigator.appCodeName + "<br/>");
+            document.write("Platform is: " + navigator.platform + "<br>");
+        </script>
+        // <input type="button" value="Open new window" onclick="win_open()"/>
+        <input type="button" value="Jump to Naver" onclick="jump()"/>
+    </body>
+</html>

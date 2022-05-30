@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Function</title>
+    <script>
+      function multiplicationTable(n) {
+        var num;
+        num = Number(n);//string인 변수를 받기위해 그대로 n만 쓴다. 만약 "n"이라고 쓰면 변수n을 받아오는게 아닌 알파벳n을 말하는게 되버린다.
+        
+
+        if (isNaN(num) || num < 1 || num > 9) {
+          alert("You entered incorrectly.");
+        } else {
+          for (var i = 0; i < 9; i++){
+            document.write(n + " x " + (i+1) + " = " + num * (i+1) + "<br>");
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Create a multiplication table output function</h2>
+    <script>
+      var n = prompt("Enter the dan you want?");
+
+      multiplicationTable(n);
+    </script>
+  </body>
+</html>

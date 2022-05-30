@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab1-1</title>
+        <style>
+            div {display: none;}
+            input:checked ~ #hints{
+                display: block;
+            }
+            input:checked + #answer{
+                display: block;
+            }
+            h2::first-letter {
+                text-transform: uppercase; color: red; font-size: 30px;
+            }
+            h3::first-line {
+                color: blue;
+            }    
+            #hints {
+                background-color: gray; color: white;
+            }
+            #answer {
+                background-color: black; color: white;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h2>question</h2>
+        <h3>What is the capital of Korea?</h3>
+        Write the answer: <input type="text">
+        <h2>answer</h2>
+
+        See hints: <input type="checkbox"><br>
+        <div id="hints">The place where Namdaemun is located</div>
+        See the answer: <input type="checkbox">
+        <div id="answer">SEOUL</div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+img {height: 100px; width: 100px;}
+.top {
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+    color: #003399;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.middle {
+    border-top: 2px solid gray;
+    border-top: 2px solid gray;
+    margin: 10px 0;
+}
+div.left {
+    background-color: #cfcfff;
+    margin: 10px 20px 5px 0;
+}
+.footer {
+    font-style: italic; font-size: small; text-align: right;
+}
